@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.log
+
+# Virtual envs
+blender-mcp-venv/
+blender-mpc-venv/
+.venv/
+venv/
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
+
+# Build/cache
+*.cache/
+.cache/
+
+# Blender artifacts
+*.blend1
+*.blend2
+*.blend@
+# If you keep .blend files out of repo, uncomment the next line
+# *.blend
+
+# Project outputs
+runs/
+
+# Generated script numbering state
+blender-scripts/.script_count
+blender-scripts/generated/.script_count
+
+# Optionally ignore generated scripts themselves (keeps .keep)
+blender-scripts/generated/*.py
+
+# Bytecode in subdirs
+project-internal-scripts/__pycache__/
+blender-scripts/__pycache__/

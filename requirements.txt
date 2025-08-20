@@ -1,0 +1,24 @@
+# Core dependencies for Blender MCP and MPC integration
+mcp[cli]>=1.3.0
+python-dotenv
+rich
+shellingham
+starlette
+sse-starlette
+uvicorn
+pydantic
+httpx
+httpx-sse
+typer
+anyio
+h11
+exceptiongroup
+idna
+markdown-it-py
+mdurl
+colorama
+click
+# Add Windsurf Cascade and Anthropic MPC dependencies below as needed
+# e.g.
+# anthropic
+# windsurf-cascade
