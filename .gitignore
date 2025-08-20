@@ -29,13 +29,6 @@ venv/
 # Project outputs
 runs/
 
-# Generated script numbering state
-blender-scripts/.script_count
-blender-scripts/generated/.script_count
-
-# Optionally ignore generated scripts themselves (keeps .keep)
-blender-scripts/generated/*.py
-
 # Bytecode in subdirs
 project-internal-scripts/__pycache__/
 blender-scripts/__pycache__/
